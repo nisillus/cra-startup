@@ -1,0 +1,62 @@
+{
+  "name": "debank-cra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.17",
+    "@fortawesome/free-brands-svg-icons": "5.8.1",
+    "@fortawesome/free-solid-svg-icons": "5.8.1",
+    "@fortawesome/react-fontawesome": "0.1.4",
+    "axios": "0.18.0",
+    "css.escape": "1.5.1",
+    "i18next": "15.1.0",
+    "i18next-icu": "1.1.2",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-i18next": "10.9.0",
+    "react-redux": "7.0.3",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-observable": "1.1.0",
+    "reselect": "4.0.0",
+    "rxjs": "6.5.1",
+    "styled-components": "4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@storybook/addon-actions": "5.0.11",
+    "@storybook/addon-links": "5.0.11",
+    "@storybook/addons": "5.0.11",
+    "@storybook/react": "5.0.11",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-plugin-react": "7.13.0",
+    "eslint-plugin-react-hooks": "1.6.0"
+  }
+}
